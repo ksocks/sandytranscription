@@ -13,7 +13,6 @@ fabric.Image.fromURL("Images/sand puff.png", function (img) {
 
   for (var i = 0; i < 13; i += 1) {
     for (var j = 0; j < 9; j += 1) {
-      console.log(100 * i);
       (function (x, y) {
         img.clone(function (c) {
           canvas.add(c.set({ left: x, top: y, angle: -15 }));
