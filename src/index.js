@@ -1,5 +1,3 @@
-import { fabric } from "fabricjs";
-
 var canvas = new fabric.Canvas("c");
 canvas.selection = false;
 
