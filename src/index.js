@@ -4,7 +4,7 @@ canvas.selection = false;
 fabric.Object.prototype.originX = fabric.Object.prototype.originY = "center";
 fabric.Object.prototype.selectable = false;
 
-fabric.Image.fromURL("assets/sand puff.png", function (img) {
+fabric.Image.fromURL("Images/sand puff.png", function (img) {
   img.scaleToHeight(200);
   img.scaleToWidth(200);
   canvas.add(img.set({ left: 100, top: 100, angle: -15 }));
@@ -23,7 +23,7 @@ fabric.Image.fromURL("assets/sand puff.png", function (img) {
   }
 });
 
-fabric.Image.fromURL("assets/message_test3.png", function (img) {
+fabric.Image.fromURL("Images/message_test3.png", function (img) {
   img.notrans = true;
   img.scaleToWidth(1280);
   img.originX = "left";
